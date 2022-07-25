@@ -11,6 +11,7 @@ export default function BotTabNav() {
     <NavigationContainer>
       <Tab.Navigator>
         <Tab.Screen name="Home" component={Home} />
+        <Tab.Screen name="NotHome" component={Home} />
       </Tab.Navigator>
     </NavigationContainer>
   );

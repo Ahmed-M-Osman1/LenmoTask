@@ -11,12 +11,12 @@ const Home = () => {
           backgroundColor: '#7659FB',
           height: '50%',
         }}></View>
-      <FloatingCard />
       <View
         style={{
           backgroundColor: '#F6F7F9',
           height: '50%',
         }}></View>
+      <FloatingCard />
     </SafeAreaView>
   );
 };
